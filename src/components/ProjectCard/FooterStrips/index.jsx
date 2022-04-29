@@ -47,6 +47,7 @@ class FooterStrips extends React.Component {
 
           return (
             <span
+              title={key}
               style={{
                 display: 'inline-block',
                 height: '100%',
